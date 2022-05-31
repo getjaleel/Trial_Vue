@@ -52,6 +52,12 @@ const formFields = {
     },
   },
  };
+  confirmation_code: {
+      labelHidden: false,
+      label: 'New Label',
+      placeholder: 'PLEASE CLOSE THIS PAGE AS YOUR REQUEST IS MANUALLY APPRVED BY SITE ADMIN:',
+      isRequired: false,
+    },
   
 
 const services = {

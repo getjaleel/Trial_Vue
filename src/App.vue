@@ -57,7 +57,6 @@ const services = {
   async handleSignUp(formData) {
     let { username, password, attributes } = formData;
     // custom username
-
     username = username.toLowerCase();
     attributes.email = attributes.email.toLowerCase();
     // check if you are able to get custom attribute name at back end

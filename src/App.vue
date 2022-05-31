@@ -14,13 +14,39 @@
       </div>
       <button @click="signOut">Sign Out</button>
     </template>
+    <template v-slot:confirm-sign-up-header>
+      <h3
+        class="amplify-heading"
+        style="padding: var(--amplify-space-xl) 0 0 var(--amplify-space-xl)"
+      >
+        NO CODE IS SENT OUT
+      </h3>
+    </template>
+
+    <template v-slot:confirm-sign-up-footer>
+      <div style="text-align: center">
+        <button
+          @click="signIn"
+          class="amplify-button amplify-field-group__control"
+          data-fullwidth="false"
+          data-size="small"
+          data-variation="link"
+          type="button"
+          style="font-weight: normal"
+        >
+          Back to Sign In
+        </button>
+      </div>
+    </template>
   </authenticator>
+
   <amplify-confirm-sign-up
     [handleSubmit]="onConfirmSignUp"
     slot="confirm-sign-up"
   >
   </amplify-confirm-sign-up>
 </template>
+
 
 
 
@@ -53,13 +79,14 @@ const formFields = {
   },
   confirmSignUp: {
     confirmation_code: {
-        labelHidden: false,
-        label: 'NO CODE IS SENT OUT, WATCH OUT FOR THE APPROVAL EMAIL IN YOUR INBOX AND PROCEED TO SIGN IN PAGE WITH SET CREDENTIALS',
-        placeholder: 'NO CODE HERE!!',
-        isRequired: false,
-        },
+      labelHidden: false,
+      label:
+        "NO CODE IS SENT OUT, WATCH OUT FOR THE APPROVAL EMAIL IN YOUR INBOX AND PROCEED TO SIGN IN PAGE WITH SET CREDENTIALS",
+      placeholder: "NO CODE HERE!!",
+      isRequired: false,
     },
-   };
+  },
+};
 
 const services = {
   async handleSignUp(formData) {

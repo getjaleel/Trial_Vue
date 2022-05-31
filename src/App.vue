@@ -54,9 +54,8 @@ const formFields = {
   confirmSignUp: {
     confirmation_code: {
         labelHidden: false,
-        color: "red",
-        label: 'NO CODE IS SENT OUT,WATCH OUT FOR APPROVAL EMAIL IN YOUR INBOX AND PROCEED TO SIGNIN PAGE WITH SET CREDENTIALS',
-        placeholder: 'PLEASE CLOSE THIS PAGE AS YOUR REQUEST IS MANUALLY APPROVED BY SITE ADMIN:',
+        label: 'NO CODE IS SENT OUT, WATCH OUT FOR THE APPROVAL EMAIL IN YOUR INBOX AND PROCEED TO SIGN IN PAGE WITH SET CREDENTIALS',
+        placeholder: 'NO CODE HERE!!',
         isRequired: false,
         },
     },

@@ -54,8 +54,8 @@ const formFields = {
 
   confirmation_code: {
       labelHidden: false,
-      label: 'NO CODE REQUIRED AS REQUEST IS MANUALLY APPROVED BY ADMIN',
-      placeholder: 'PLEASE CLOSE THIS PAGE AS YOUR REQUEST IS MANUALLY APPRVED BY SITE ADMIN:',
+      label: "NO CODE TO BE ENTERED",
+      placeholder: "PLEASE CLOSE THIS PAGE AS YOUR REQUEST IS MANUALLY APPRVED BY SITE ADMIN:",
       isRequired: false,
     },
    };

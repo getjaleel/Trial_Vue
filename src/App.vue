@@ -53,7 +53,7 @@ const formFields = {
   },
   confirmSignUp: {
     confirmation_code: {
-        labelHidden: false,
+        labelHidden: true,
         label: 'NO CODE REQUIRED AS REQUEST IS MANUALLY APPROVED BY ADMIN',
         //placeholder: 'PLEASE CLOSE THIS PAGE AS YOUR REQUEST IS MANUALLY APPRVED BY SITE ADMIN:',
         isRequired: false,

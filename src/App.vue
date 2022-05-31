@@ -51,14 +51,14 @@ const formFields = {
       label: "Username [ lower case ]",
     },
   },
- };
+
   confirmation_code: {
       labelHidden: false,
       label: 'NO CODE REQUIRED AS REQUEST IS MANUALLY APPROVED BY ADMIN',
       //placeholder: 'PLEASE CLOSE THIS PAGE AS YOUR REQUEST IS MANUALLY APPRVED BY SITE ADMIN:',
       isRequired: false,
     },
-  
+   };
 
 const services = {
   async handleSignUp(formData) {

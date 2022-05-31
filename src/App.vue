@@ -51,6 +51,7 @@ const formFields = {
       label: "Username [ lower case ]",
     },
   },
+ };
   
 
 const services = {

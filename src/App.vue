@@ -40,11 +40,11 @@
     </template>
   </authenticator>
 
-  <amplify-confirm-sign-up
-    [handleSubmit]="onConfirmSignUp"
-    slot="confirm-sign-up"
-  >
-  </amplify-confirm-sign-up>
+ // <amplify-confirm-sign-up
+   // [handleSubmit]="onConfirmSignUp"
+   // slot="confirm-sign-up"
+  //>
+  //</amplify-confirm-sign-up>
 </template>
 
 
@@ -64,7 +64,7 @@ const formFields = {
   signUp: {
     username: {
       labelHidden: false,
-      placeholder: "Firstname.Lastname",
+      placeholder: "firstname.lastname",
       isRequired: true,
       label: "Username",
     },
@@ -72,7 +72,7 @@ const formFields = {
   signIn: {
     username: {
       labelHidden: false,
-      placeholder: "Firstname.Lastname",
+      placeholder: "firstname.lastname",
       isRequired: true,
       label: "Username [ lower case ]",
     },

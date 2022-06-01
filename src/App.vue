@@ -3,7 +3,7 @@
   <img src="/Logo.png" style="margin-bottom: 20px" />
   <authenticator
     :services="services"
-    initial-state="signUp"
+    initial-state="signIn"
     :form-fields="formFields"
     :sign-up-attributes="['email', 'username', 'nickname']"
   >

@@ -32,6 +32,14 @@
       </p>
       </div>
     </template>
+       <template v-slot:confirm-sign-in-header>
+      <h3
+        class="amplify-heading"
+        style="padding: var(--amplify-space-xl) 0 0 var(--amplify-space-xl)"
+      >
+        TESTING INFO:
+      </h3>
+    </template>
   </authenticator>
 
  

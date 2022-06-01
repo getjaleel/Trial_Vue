@@ -26,7 +26,7 @@
     </template>
     
     <template v-slot:confirm-sign-up-footer>
-      <div class="--amplify-colors-red-10">Please Close This Page./div>
+      <div class="--amplify-colors-red-10">Please Close This Page.</div>
     </template>
   </authenticator>
 

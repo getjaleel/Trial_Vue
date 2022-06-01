@@ -7,6 +7,15 @@
     :form-fields="formFields"
     :sign-up-attributes="['email', 'username', 'nickname']"
   >
+    <template v-slot:sign-in-header>
+      <h3
+        class="amplify-heading"
+        style="padding: var(--amplify-space-xl) 0 0 var(--amplify-space-xl)"
+      >
+        Sign in to your account
+      </h3>
+    </template>
+    
     <template v-slot="{ user, signOut }">
       <h1>Hello {{ user.username }}!</h1>
       <div>
@@ -26,7 +35,7 @@
     <template v-slot:confirm-sign-up-footer>
       <div style="text-align: center">
         <button
-          @click="tosignIn"
+          @click="signIn"
           class="amplify-button amplify-field-group__control"
           data-fullwidth="false"
           data-size="small"
@@ -57,14 +66,6 @@ import Amplify, { Auth } from "aws-amplify";
 import awsconfig from "./aws-exports";
 Amplify.configure(awsconfig);
 const formFields = {
-  signUp: {
-    username: {
-      labelHidden: false,
-      placeholder: "firstname.lastname",
-      isRequired: true,
-      label: "Username",
-    },
-  },
   signIn: {
     username: {
       labelHidden: false,
@@ -73,6 +74,15 @@ const formFields = {
       label: "Username [ lower case ]",
     },
   },
+  signUp: {
+    username: {
+      labelHidden: false,
+      placeholder: "firstname.lastname",
+      isRequired: true,
+      label: "Username",
+    },
+  },
+  
   confirmSignUp: {
     confirmation_code: {
       labelHidden: false,

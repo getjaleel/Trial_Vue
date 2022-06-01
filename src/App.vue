@@ -19,7 +19,7 @@
     <template v-slot:confirm-sign-up-header>
       <h3
         class="amplify-heading"
-        style="padding: var(--amplify-space-xl) 0 0 var(--amplify-space-xl)"
+        style="padding: var(--amplify-space-xl) 0 0 var(--amplify-space-xl) color: var(--amplify-colors-red-90)"
       >
         NO CODE IS SENT OUT
       </h3>

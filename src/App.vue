@@ -71,9 +71,8 @@ const formFields = {
   
   confirmSignUp: {
     confirmation_code: {
-      labelHidden:true,
-      label:
-        "NO CODE IS SENT OUT, WATCH OUT FOR THE APPROVAL EMAIL IN YOUR INBOX AND PROCEED TO SIGN IN PAGE WITH SET CREDENTIALS",
+      labelHidden:false,
+      label: "NO CODE IS SENT OUT, WATCH OUT FOR THE APPROVAL EMAIL IN YOUR INBOX AND PROCEED TO SIGN IN PAGE WITH SET CREDENTIALS",
       placeholder: "NO CODE HERE!!",
       isRequired: false,
     },

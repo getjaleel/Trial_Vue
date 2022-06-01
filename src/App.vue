@@ -24,29 +24,9 @@
         NO CODE IS SENT OUT
       </h3>
     </template>
-    <template v-slot:confirm-sign-up-header>
-      <h3
-        class="amplify-heading"
-        style="padding: var(--amplify-space-xl) 0 0 var(--amplify-space-xl)"
-      >
-        
-      </h3>
-    </template>
-
+    
     <template v-slot:confirm-sign-up-footer>
-      <div style="text-align: center">
-        <button
-          @click="signIn"
-          class="amplify-button amplify-field-group__control"
-          data-fullwidth="false"
-          data-size="small"
-          data-variation="link"
-          type="button"
-          style="font-weight: normal"
-        >
-          Back to Sign In
-        </button>
-      </div>
+      <div class="--amplify-colors-red-10">Please Close This Page./div>
     </template>
   </authenticator>
 

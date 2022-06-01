@@ -26,7 +26,7 @@
     <template v-slot:confirm-sign-up-footer>
       <div style="text-align: center">
         <button
-          @click="signIn"
+          @click="tosignIn"
           class="amplify-button amplify-field-group__control"
           data-fullwidth="false"
           data-size="small"

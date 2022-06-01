@@ -40,11 +40,7 @@
     </template>
   </authenticator>
 
- // <amplify-confirm-sign-up
-   // [handleSubmit]="onConfirmSignUp"
-   // slot="confirm-sign-up"
-  //>
-  //</amplify-confirm-sign-up>
+ 
 </template>
 
 

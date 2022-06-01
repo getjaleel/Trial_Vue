@@ -26,7 +26,11 @@
     </template>
     
     <template v-slot:confirm-sign-up-footer>
-      <div color="red">Please Close This Page.</div>
+      <div style="padding: var(--amplify-space-large); text-align: center">
+      <p class="amplify-text" style="color: var(--amplify-colors-red-80)">
+      Please Close This Page.
+      </p>
+      </div>
     </template>
   </authenticator>
 

@@ -32,14 +32,7 @@
       </p>
       </div>
     </template>
-    <template v-slot:confirm-sign-in-header>
-      <h3
-        class="amplify-heading"
-        style="padding: var(--amplify-space-xl) 0 0 var(--amplify-space-xl)"
-      >
-        TESTING INFO:
-      </h3>
-    </template>
+    
   </authenticator>
 
  
@@ -78,7 +71,7 @@ const formFields = {
   
   confirmSignUp: {
     confirmation_code: {
-      labelHidden: false,
+      labelHidden:true,
       label:
         "NO CODE IS SENT OUT, WATCH OUT FOR THE APPROVAL EMAIL IN YOUR INBOX AND PROCEED TO SIGN IN PAGE WITH SET CREDENTIALS",
       placeholder: "NO CODE HERE!!",

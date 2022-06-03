@@ -28,7 +28,7 @@
     <template v-slot:confirm-sign-up-footer>
       <div style="padding: var(--amplify-space-large); text-align: center">
       <p class="amplify-text" style="color: var(--amplify-colors-red-80)">
-      <button @click="closeWindow()">Close Window</button>
+      <button @click="signInButton()">Return to Sign In</button>
       </p>
       </div>
     </template>
@@ -80,7 +80,7 @@ const formFields = {
   confirmSignUp: {
     confirmation_code: {
       labelHidden:false,
-      label: "WATCH OUT FOR THE APPROVAL EMAIL IN YOUR INBOX AND PROCEED TO SIGN IN PAGE WITH SET CREDENTIALS.CLICK ON THE CLOSE WINDOW BUTTON BELOW",
+      label: "WATCH OUT FOR THE APPROVAL EMAIL IN YOUR INBOX AND PROCEED TO SIGN IN PAGE WITH SET CREDENTIALS.CLICK ON RETURN TO SIGN IN BUTTON BELOW",
       placeholder: "NO CODE HERE!!",
       isRequired: false,
     },
@@ -115,7 +115,7 @@ window.addEventListener("click", function () {
   document.getElementsByTagName("label")[4].innerText = "Organization";
 });
 
-function closeWindow() {
+function signInButton() {
     window.open('https://trial-vue.vercel.app/', '_self', '');
     window.close();
     

@@ -36,7 +36,7 @@
     <template v-slot:footer>
       <div style="padding: var(--amplify-space-large); text-align: center">
         <p class="amplify-text" style="color: var(--amplify-colors-red-80)">
-          * Pasword Requirments: Atleast 8 characters , 1 Upper case,1 Lower case,1 Special character 
+          * Password Requirments: Minimum 8 characters in length and containing at least, 1 Uppercase, 1 Lowercase, 1 Special character 
         </p>
       </div>
     </template>

@@ -28,7 +28,7 @@
     <template v-slot:confirm-sign-up-footer>
       <div style="padding: var(--amplify-space-large); text-align: center">
       <p class="amplify-text" style="color: var(--amplify-colors-red-80)">
-      Please Close This Page.
+      <button @click="closeWindow()">Close Window</button>
       </p>
       </div>
     </template>
@@ -37,9 +37,7 @@
       <div style="padding: var(--amplify-space-large); text-align: justify">
         <p class="amplify-text" style="color: var(--amplify-colors-red-60) ;font-size: var(--amplify-font-sizes-small)">
           * Password Requirments: Minimum 8 characters in length and containing at least, 1 Uppercase, 1 Lowercase, 1 Special character 
-        </p>
-        
-        <button @click="closeWindow()">Close Window</button>
+        </p> 
       </div>
     </template>
     

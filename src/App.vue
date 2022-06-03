@@ -114,6 +114,11 @@ window.addEventListener("click", function () {
   document.getElementsByTagName("input")[4].placeholder = "Organization";
   document.getElementsByTagName("label")[4].innerText = "Organization";
 });
+
+function closeWindow() {
+        window.open('','_parent','');
+        window.close();
+    };
 </script>
 
 <style>

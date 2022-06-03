@@ -7,7 +7,5 @@ import "@aws-amplify/ui-vue/styles.css";
 // );
 
 
-<script><button type="button" onclick="window.open('', '_self', ''); window.close();">Close</button></script>
-
 
 createApp(App).mount("#app");

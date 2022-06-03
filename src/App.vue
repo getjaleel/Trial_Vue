@@ -16,6 +16,7 @@
       </div>
       <button @click="signOut">Sign Out</button>
     </template>
+    
     <template v-slot:confirm-sign-up-header>
       <h3
         class="amplify-heading"
@@ -40,6 +41,19 @@
         </p> 
       </div>
     </template>
+    <template>
+      <div>
+        <b-button variant="primary" disabled>
+          <b-spinner small></b-spinner>
+          <span class="sr-only">Loading...</span>
+        </b-button>
+
+        <b-button variant="primary" disabled>
+          <b-spinner small type="grow"></b-spinner>
+          Loading...
+        </b-button>
+      </div>
+     </template>
     
   </authenticator>
 
@@ -86,6 +100,7 @@ const formFields = {
     },
   },
 };
+
 
 const services = {
   async handleSignUp(formData) {

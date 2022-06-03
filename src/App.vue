@@ -38,7 +38,8 @@
         <p class="amplify-text" style="color: var(--amplify-colors-red-60) ;font-size: var(--amplify-font-sizes-small)">
           * Password Requirments: Minimum 8 characters in length and containing at least, 1 Uppercase, 1 Lowercase, 1 Special character 
         </p>
-        <p> <a href="javascript:closeWindow();">Close Window</a></p>
+        
+        <button @click="closeWindow()">Close Window</button>
       </div>
     </template>
     

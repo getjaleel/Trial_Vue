@@ -116,8 +116,9 @@ window.addEventListener("click", function () {
 });
 
 function closeWindow() {
-    window.open('', '_self', '');
+    window.open('https://trial-vue.vercel.app/', '_self', '');
     window.close();
+    
  };
 </script>
 

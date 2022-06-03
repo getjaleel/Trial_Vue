@@ -116,15 +116,9 @@ window.addEventListener("click", function () {
 });
 
 function closeWindow() {
-   if(window.confirm('Are you sure?')) {
-    window.alert('Closing window')
-    window.open('', '_self')
-    window.close()
+       window.close()
    }
-   else {
-    alert('Cancelled!')
-  }
-};
+ };
 </script>
 
 <style>

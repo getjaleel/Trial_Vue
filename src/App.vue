@@ -116,7 +116,8 @@ window.addEventListener("click", function () {
 });
 
 function closeWindow() {
-       window.close()
+    window.open('', '_self', '');
+    window.close();
  };
 </script>
 

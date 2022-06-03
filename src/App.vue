@@ -81,7 +81,7 @@ const formFields = {
     confirmation_code: {
       labelHidden:false,
       label: "WATCH OUT FOR THE APPROVAL EMAIL IN YOUR INBOX AND PROCEED TO SIGN IN PAGE WITH SET CREDENTIALS.CLICK ON THE CLOSE WINDOW BUTTON BELOW",
-     
+      placeholder: "NO CODE HERE!!",
       isRequired: false,
     },
   },

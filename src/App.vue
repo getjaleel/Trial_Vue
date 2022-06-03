@@ -117,7 +117,6 @@ window.addEventListener("click", function () {
 
 function closeWindow() {
        window.close()
-   }
  };
 </script>
 

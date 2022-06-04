@@ -40,7 +40,7 @@
           * Password Requirments: Minimum 8 characters in length and containing at least, 1 Uppercase, 1 Lowercase, 1 Special character 
         </p> 
       </div>
-    </template>
+    </template v-slot:confirm-sign-in>
     <template>
        <div>
         <b-spinner small label="Small Spinner"></b-spinner>

@@ -41,12 +41,7 @@
         </p> 
       </div>
     </template>
-    <template v-slot:confirm-sign-in>
-       <div>
-        <b-spinner small label="Small Spinner"></b-spinner>
-        <b-spinner small label="Small Spinner" type="grow"></b-spinner>
-      </div>
-    </template>
+    
         
   </authenticator>
 

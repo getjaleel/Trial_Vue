@@ -49,9 +49,7 @@
         </h3>
       
       </div>
-      <div class="data-amplify-text" style="flex-direction: column" >
-      <h3 class="am
-      </div>
+      
     </template>
    
     

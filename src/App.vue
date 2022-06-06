@@ -14,9 +14,9 @@
       <h1>Hi {{ user.username }}!</h1>
       
         <p>&nbsp;</p>
-<p style="text-align: left;">Congratulations! You have successfully generated a new secure storage bucket and you will soon receive an email with additional credentials.</p>
-<p style="text-align: left;">In the meantime please find some useful links that should help you get started.</p>
-<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left; padding-left: 40px;">Congratulations! You have successfully generated a new secure storage bucket and you will soon receive an email with additional credentials.</p>
+<p style="text-align: left; padding-left: 40px;">In the meantime please find some useful links that should help you get started.</p>
+<p style="text-align: left; padding-left: 40px;">&nbsp;</p>
 <p>&nbsp;</p>
 <p style="text-align: left; padding-left: 40px;"><span class="x_ui-provider">&nbsp; &nbsp; &nbsp;</span><span class="x_ui-provider"><strong>AusSeabed&nbsp;Incoming&nbsp;Data&nbsp;Policies&nbsp;and&nbsp;Procedures</strong></span><span class="x_ui-provider">&nbsp;</span></p>
 <p style="text-align: left; padding-left: 40px;"><span class="x_ui-provider">&nbsp;<a title="https://asbdatamanagement.atlassian.net/wiki/spaces/aidpp/overview" href="https://asbdatamanagement.atlassian.net/wiki/spaces/AIDPP/overview" target="_blank" rel="noopener noreferrer" data-auth="NotApplicable" data-linkindex="3">https://asbdatamanagement.atlassian.net/wiki/spaces/AIDPP/overview&nbsp;</a></span></p>

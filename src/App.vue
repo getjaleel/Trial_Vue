@@ -6,6 +6,7 @@
     initial-state="signIn"
     :form-fields="formFields"
     :sign-up-attributes="['email', 'username', 'nickname']"
+    :confirm-sign-up="[]"
   >
     
     

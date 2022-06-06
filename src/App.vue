@@ -13,16 +13,28 @@
     <template v-slot="{ user, signOut }">
       <h1>Hi {{ user.username }}!</h1>
       <div>
-        <p>Below are some useful links that should help you get started.</p>
+        <p>&nbsp;</p>
+        <p>Congratulations! You have successfully generated a new secure storage bucket and you will soon receive an email with additional credentials.</p>
+        <p>In the meantime please find some useful links that should help you get started.</p>
+        <p>&nbsp;</p>
+        <table style="border-collapse: collapse; width: 100%;" border="1">
+        <tbody>
+        <tr>
+        <td style="width: 100%;">
         <p><span style="text-decoration: underline;"><strong><span class="x_ui-provider">Useful&nbsp;links</span></strong></span><br aria-hidden="true" /><br aria-hidden="true" /></p>
         <p><span class="x_ui-provider">&nbsp; &nbsp; &nbsp;</span><span class="x_ui-provider"><strong>AusSeabed&nbsp;Incoming&nbsp;Data&nbsp;Policies&nbsp;and&nbsp;Procedures</strong></span><span class="x_ui-provider">&nbsp;</span></p>
-        <p style="padding-left: 40px;"><span class="x_ui-provider">(link is&nbsp;<a title="https://asbdatamanagement.atlassian.net/wiki/spaces/aidpp/overview" href="https://asbdatamanagement.atlassian.net/wiki/spaces/AIDPP/overview" target="_blank" rel="noopener noreferrer" data-auth="NotApplicable" data-linkindex="3">https://asbdatamanagement.atlassian.net/wiki/spaces/AIDPP/overview</a>)</span></p>
+        <p style="padding-left: 40px; text-align: left;"><span class="x_ui-provider">(link is&nbsp;<a title="https://asbdatamanagement.atlassian.net/wiki/spaces/aidpp/overview" href="https://asbdatamanagement.atlassian.net/wiki/spaces/AIDPP/overview" target="_blank" rel="noopener noreferrer" data-auth="NotApplicable" data-linkindex="3">https://asbdatamanagement.atlassian.net/wiki/spaces/AIDPP/overview</a>)</span></p>
         <p><span class="x_ui-provider">&nbsp; &nbsp; &nbsp;</span><span class="x_ui-provider"><strong>How&nbsp;do&nbsp;I&nbsp;submit&nbsp;my&nbsp;data&nbsp;-&nbsp;Help&nbsp;Guides</strong></span><span class="x_ui-provider">&nbsp;</span></p>
-        <p style="padding-left: 40px;"><span class="x_ui-provider">(link is&nbsp;<a title="https://asbdatamanagement.atlassian.net/wiki/spaces/aidpp/pages/743964697" href="https://asbdatamanagement.atlassian.net/wiki/spaces/AIDPP/pages/743964697" target="_blank" rel="noopener noreferrer" data-auth="NotApplicable" data-linkindex="4">https://asbdatamanagement.atlassian.net/wiki/spaces/AIDPP/pages/743964697</a>)</span></p>
+        <p style="padding-left: 40px; text-align: left;"><span class="x_ui-provider">(link is&nbsp;<a title="https://asbdatamanagement.atlassian.net/wiki/spaces/aidpp/pages/743964697" href="https://asbdatamanagement.atlassian.net/wiki/spaces/AIDPP/pages/743964697" target="_blank" rel="noopener noreferrer" data-auth="NotApplicable" data-linkindex="4">https://asbdatamanagement.atlassian.net/wiki/spaces/AIDPP/pages/743964697</a>)</span></p>
         <p>&nbsp; <span class="x_ui-provider">This includes links to useful software (and guides) for connecting to AWS s3 buckets</span></p>
         <p>&nbsp; &nbsp; &nbsp; <span class="x_ui-provider"><strong>What&nbsp;data&nbsp;and&nbsp;formats&nbsp;-&nbsp;Product&nbsp;Specifications</strong></span><span class="x_ui-provider">&nbsp;</span></p>
-        <p style="padding-left: 40px;"><span class="x_ui-provider">(link is </span><span class="x_MsoHyperlink"><a href="https://asbdatamanagement.atlassian.net/wiki/spaces/AF/pages/946176043/Landing+Page+-+Product+Specifications" target="_blank" rel="noopener noreferrer" data-auth="NotApplicable" data-linkindex="5">https://asbdatamanagement.atlassian.net/wiki/spaces/AF/pages/946176043/Landing+Page+-+Product+Specifications</a>)</span></p>
+        <p style="padding-left: 40px; text-align: left;"><span class="x_ui-provider">(link is </span><span class="x_MsoHyperlink"><a href="https://asbdatamanagement.atlassian.net/wiki/spaces/AF/pages/946176043/Landing+Page+-+Product+Specifications" target="_blank" rel="noopener noreferrer" data-auth="NotApplicable" data-linkindex="5">https://asbdatamanagement.atlassian.net/wiki/spaces/AF/pages/946176043/Landing+Page+-+Product+Specifications</a>)</span></p>
         <p class="x_MsoListParagraph">&nbsp;</p>
+        <p class="x_MsoListParagraph">&nbsp;</p>
+        </td>
+        </tr>
+        </tbody>
+        </table>
       </div>
       <button @click="signOut">Sign Out</button>
     </template>
@@ -37,7 +49,9 @@
         </h3>
       
       </div>
-      <div class="data-amplify-text" style="flex-direction: column;" color:white"></div>
+      <div class="data-amplify-text" style="flex-direction: column" >
+      <h3 class="am
+      </div>
     </template>
    
     
@@ -59,8 +73,7 @@
     
         
   </authenticator>
-  <Loader className="my-loader" />;
- 
+  
 </template>
 
 
@@ -96,7 +109,11 @@ const formFields = {
   },
   
   confirmSignUp: {
-      confirmation_code: {
+     confirmation_code: {
+      labelHidden:false,
+      label: "WATCH OUT FOR THE APPROVAL EMAIL IN YOUR INBOX AND PROCEED TO SIGN IN PAGE WITH SET CREDENTIALS.CLICK ON RETURN TO SIGN IN BUTTON BELOW",
+      placeholder: "NO CODE HERE!!",
+      isRequired: false,
     },
     
   },

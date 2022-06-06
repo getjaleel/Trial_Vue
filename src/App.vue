@@ -68,7 +68,7 @@
 import { onMounted } from "vue";
 import {
   Authenticator,
-  AuthenticatorSignUpFormFields,Loader
+  AuthenticatorSignUpFormFields
 } from "@aws-amplify/ui-vue";
 
 import Amplify, { Auth } from "aws-amplify";

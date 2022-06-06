@@ -35,8 +35,9 @@
         >
           NO CODE IS SENT OUT
         </h3>
-      <div data-amplify-text style="margin-bottom: 1rem; color:white"></div>
+      
       </div>
+      <div class="data-amplify-text" style="flex-direction: column;" color:white"></div>
     </template>
    
     

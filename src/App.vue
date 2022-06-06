@@ -15,34 +15,35 @@
       
         <p>&nbsp;</p>
 
-        <p>Congratulations! You have successfully generated a new secure storage bucket and you will soon receive an email with additional credentials.</p>
+<p>Congratulations! You have successfully generated a new secure storage bucket and you will soon receive an email with additional credentials.</p>
 
-        <p>In the meantime please find some useful links that should help you get started.</p>
+<p>In the meantime please find some useful links that should help you get started.</p>
 
-        <p>&nbsp;</p>
+<p>&nbsp;</p>
 
-        <p><strong>Useful&nbsp;links</strong><br />
-        &nbsp;</p>
+<p><strong>Useful&nbsp;links</strong><br />
+&nbsp;</p>
 
-        <p style="margin-left:80px"><strong>AusSeabed&nbsp;Incoming&nbsp;Data&nbsp;Policies&nbsp;and&nbsp;Procedures</strong>&nbsp;</p>
+<p style="margin-left:40px"><strong>AusSeabed&nbsp;Incoming&nbsp;Data&nbsp;Policies&nbsp;and&nbsp;Procedures</strong>&nbsp;</p>
 
-        <p style="margin-left:80px">( <a href="https://asbdatamanagement.atlassian.net/wiki/spaces/AIDPP/overview" rel="noopener noreferrer" target="_blank" title="https://asbdatamanagement.atlassian.net/wiki/spaces/aidpp/overview">https://asbdatamanagement.atlassian.net/wiki/spaces/AIDPP/overview </a>)</p>
+<p style="margin-left:40px">( <a href="https://asbdatamanagement.atlassian.net/wiki/spaces/AIDPP/overview" rel="noopener noreferrer" target="_blank" title="https://asbdatamanagement.atlassian.net/wiki/spaces/aidpp/overview">https://asbdatamanagement.atlassian.net/wiki/spaces/AIDPP/overview </a>)</p>
 
-        <p style="margin-left:80px">&nbsp;</p>
+<p style="margin-left:40px">&nbsp;</p>
 
-        <p style="margin-left:80px"><strong>How&nbsp;do&nbsp;I&nbsp;submit&nbsp;my&nbsp;data&nbsp;-&nbsp;Help&nbsp;Guides</strong>&nbsp;</p>
+<p style="margin-left:40px"><strong>How&nbsp;do&nbsp;I&nbsp;submit&nbsp;my&nbsp;data&nbsp;-&nbsp;Help&nbsp;Guides</strong>&nbsp;</p>
 
-        <p style="margin-left:80px">( <a href="https://asbdatamanagement.atlassian.net/wiki/spaces/AIDPP/pages/743964697" rel="noopener noreferrer" target="_blank" title="https://asbdatamanagement.atlassian.net/wiki/spaces/aidpp/pages/743964697">https://asbdatamanagement.atlassian.net/wiki/spaces/AIDPP/pages/743964697</a> )</p>
+<p style="margin-left:40px">( <a href="https://asbdatamanagement.atlassian.net/wiki/spaces/AIDPP/pages/743964697" rel="noopener noreferrer" target="_blank" title="https://asbdatamanagement.atlassian.net/wiki/spaces/aidpp/pages/743964697">https://asbdatamanagement.atlassian.net/wiki/spaces/AIDPP/pages/743964697</a> )</p>
 
-        <p style="margin-left:80px">&nbsp; This includes links to useful software (and guides) for connecting to AWS s3 buckets</p>
+<p style="margin-left:40px">&nbsp; This includes links to useful software (and guides) for connecting to AWS s3 buckets</p>
 
-        <p style="margin-left:80px">&nbsp; &nbsp; &nbsp;</p>
+<p style="margin-left:40px">&nbsp; &nbsp; &nbsp;</p>
 
-        <p style="margin-left:80px"><strong>What&nbsp;data&nbsp;and&nbsp;formats&nbsp;-&nbsp;Product&nbsp;Specifications</strong>&nbsp;</p>
+<p style="margin-left:40px"><strong>What&nbsp;data&nbsp;and&nbsp;formats&nbsp;-&nbsp;Product&nbsp;Specifications</strong>&nbsp;</p>
 
-        <p style="margin-left:80px">( <a href="https://asbdatamanagement.atlassian.net/wiki/spaces/AF/pages/946176043/Landing+Page+-+Product+Specifications" rel="noopener noreferrer" target="_blank">https://asbdatamanagement.atlassian.net/wiki/spaces/AF/pages/946176043/Landing+Page+-+Product+Specifications </a>)</p>
+<p style="margin-left:40px">( <a href="https://asbdatamanagement.atlassian.net/wiki/spaces/AF/pages/946176043/Landing+Page+-+Product+Specifications" rel="noopener noreferrer" target="_blank">https://asbdatamanagement.atlassian.net/wiki/spaces/AF/pages/946176043/Landing+Page+-+Product+Specifications </a>)</p>
 
-        <p>&nbsp;</p>
+<p>&nbsp;</p>
+
 
       
       <button @click="signOut">Sign Out</button>

@@ -27,13 +27,15 @@
     </template>
     
     <template v-slot:confirm-sign-up-header>
-      <h3
-        class="amplify-heading"
-        style="padding: var(--amplify-space-xl) 0 0 var(--amplify-space-xl); color: red"
-      >
-        NO CODE IS SENT OUT
-      </h3>
-      <span data-amplify-text="" style="margin-bottom: 1rem;">== $0 Approval pending with Administrator</span>
+      <div class="amplify-flex" style="flex-direction: column;">
+        <h3
+          class="amplify-heading"
+          style="padding: var(--amplify-space-xl) 0 0 var(--amplify-space-xl); color: red"
+        >
+          NO CODE IS SENT OUT
+        </h3>
+      <span data-amplify-text="" style="margin-bottom: 1rem;"> Approval pending with Administrator</span>
+      </div>
     </template>
    
     

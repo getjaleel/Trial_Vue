@@ -95,7 +95,8 @@ const formFields = {
   },
   
   confirmSignUp: {
-      placeholder: "NO CODE INPUT",
+      confirmation_code: {
+    },
     
   },
 };

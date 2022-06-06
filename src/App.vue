@@ -14,36 +14,20 @@
       <h1>Hi {{ user.username }}!</h1>
       
         <p>&nbsp;</p>
-
 <p>Congratulations! You have successfully generated a new secure storage bucket and you will soon receive an email with additional credentials.</p>
-
 <p>In the meantime please find some useful links that should help you get started.</p>
-
 <p>&nbsp;</p>
-
-<p><strong>Useful&nbsp;links</strong><br />
-&nbsp;</p>
-
-<p style="margin-left:40px"><strong>AusSeabed&nbsp;Incoming&nbsp;Data&nbsp;Policies&nbsp;and&nbsp;Procedures</strong>&nbsp;</p>
-
-<p style="margin-left:40px">( <a href="https://asbdatamanagement.atlassian.net/wiki/spaces/AIDPP/overview" rel="noopener noreferrer" target="_blank" title="https://asbdatamanagement.atlassian.net/wiki/spaces/aidpp/overview">https://asbdatamanagement.atlassian.net/wiki/spaces/AIDPP/overview </a>)</p>
-
-<p style="margin-left:40px">&nbsp;</p>
-
-<p style="margin-left:40px"><strong>How&nbsp;do&nbsp;I&nbsp;submit&nbsp;my&nbsp;data&nbsp;-&nbsp;Help&nbsp;Guides</strong>&nbsp;</p>
-
-<p style="margin-left:40px">( <a href="https://asbdatamanagement.atlassian.net/wiki/spaces/AIDPP/pages/743964697" rel="noopener noreferrer" target="_blank" title="https://asbdatamanagement.atlassian.net/wiki/spaces/aidpp/pages/743964697">https://asbdatamanagement.atlassian.net/wiki/spaces/AIDPP/pages/743964697</a> )</p>
-
-<p style="margin-left:40px">&nbsp; This includes links to useful software (and guides) for connecting to AWS s3 buckets</p>
-
-<p style="margin-left:40px">&nbsp; &nbsp; &nbsp;</p>
-
-<p style="margin-left:40px"><strong>What&nbsp;data&nbsp;and&nbsp;formats&nbsp;-&nbsp;Product&nbsp;Specifications</strong>&nbsp;</p>
-
-<p style="margin-left:40px">( <a href="https://asbdatamanagement.atlassian.net/wiki/spaces/AF/pages/946176043/Landing+Page+-+Product+Specifications" rel="noopener noreferrer" target="_blank">https://asbdatamanagement.atlassian.net/wiki/spaces/AF/pages/946176043/Landing+Page+-+Product+Specifications </a>)</p>
-
 <p>&nbsp;</p>
-
+<p style="text-align: left;"><span class="x_ui-provider">&nbsp; &nbsp; &nbsp;</span><span class="x_ui-provider"><strong>AusSeabed&nbsp;Incoming&nbsp;Data&nbsp;Policies&nbsp;and&nbsp;Procedures</strong></span><span class="x_ui-provider">&nbsp;</span></p>
+<p style="text-align: left;"><span class="x_ui-provider">&nbsp;<a title="https://asbdatamanagement.atlassian.net/wiki/spaces/aidpp/overview" href="https://asbdatamanagement.atlassian.net/wiki/spaces/AIDPP/overview" target="_blank" rel="noopener noreferrer" data-auth="NotApplicable" data-linkindex="3">https://asbdatamanagement.atlassian.net/wiki/spaces/AIDPP/overview&nbsp;</a></span></p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;"><span class="x_ui-provider">&nbsp; &nbsp; &nbsp;</span><span class="x_ui-provider"><strong>How&nbsp;do&nbsp;I&nbsp;submit&nbsp;my&nbsp;data&nbsp;-&nbsp;Help&nbsp;Guides</strong></span><span class="x_ui-provider">&nbsp;</span></p>
+<p style="text-align: left;"><span class="x_ui-provider">&nbsp;<a title="https://asbdatamanagement.atlassian.net/wiki/spaces/aidpp/pages/743964697" href="https://asbdatamanagement.atlassian.net/wiki/spaces/AIDPP/pages/743964697" target="_blank" rel="noopener noreferrer" data-auth="NotApplicable" data-linkindex="4">https://asbdatamanagement.atlassian.net/wiki/spaces/AIDPP/pages/743964697&nbsp;</a></span></p>
+<p style="text-align: left;"><span class="x_ui-provider">This includes links to useful software (and guides) for connecting to AWS s3 buckets</span></p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;">&nbsp; &nbsp; &nbsp; <span class="x_ui-provider"><strong>What&nbsp;data&nbsp;and&nbsp;formats&nbsp;-&nbsp;Product&nbsp;Specifications</strong></span><span class="x_ui-provider">&nbsp;</span></p>
+<p style="text-align: left;"><span class="x_ui-provider">&nbsp;</span><span class="x_MsoHyperlink"><a href="https://asbdatamanagement.atlassian.net/wiki/spaces/AF/pages/946176043/Landing+Page+-+Product+Specifications" target="_blank" rel="noopener noreferrer" data-auth="NotApplicable" data-linkindex="5">https://asbdatamanagement.atlassian.net/wiki/spaces/AF/pages/946176043/Landing+Page+-+Product+Specifications&nbsp;</a></span></p>
+<p class="x_MsoListParagraph" style="text-align: left;">&nbsp;</p>
 
       
       <button @click="signOut">Sign Out</button>

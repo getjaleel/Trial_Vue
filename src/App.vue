@@ -35,7 +35,7 @@
         >
           NO CODE IS SENT OUT
         </h3>
-      <span data-amplify-text="" style="margin-bottom: 1rem;"> Approval pending with Administrator</span>
+      <span data-amplify-text="" style="margin-bottom: 1rem; color:white"></span>
       </div>
     </template>
    

@@ -57,7 +57,7 @@
     
         
   </authenticator>
-
+  <Loader className="my-loader" />;
  
 </template>
 
@@ -74,7 +74,7 @@ import {
 import Amplify, { Auth } from "aws-amplify";
 import awsconfig from "./aws-exports";
 Amplify.configure(awsconfig);
-<Loader className="my-loader" />;
+
 const formFields = {
   signIn: {
     username: {

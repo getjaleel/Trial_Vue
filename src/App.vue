@@ -12,7 +12,7 @@
     
     <template v-slot="{ user, signOut }">
       <h1>Hi {{ user.username }}!</h1>
-      <div>
+      
         <p>&nbsp;</p>
 
         <p>Congratulations! You have successfully generated a new secure storage bucket and you will soon receive an email with additional credentials.</p>
@@ -44,7 +44,7 @@
 
         <p>&nbsp;</p>
 
-      </div>
+      
       <button @click="signOut">Sign Out</button>
     </template>
     

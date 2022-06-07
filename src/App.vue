@@ -83,6 +83,9 @@ import Amplify, { Auth } from "aws-amplify";
 import awsconfig from "./aws-exports";
 Amplify.configure(awsconfig);
 
+import './styles.css';
+
+
 const formFields = {
   signIn: {
     username: {

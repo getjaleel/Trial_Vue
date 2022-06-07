@@ -159,9 +159,5 @@ body {
   text-align: center;
   color: #2c3e50;
 }
-/* styles.css */
-.my-loader {
-  width: 5rem;
-  height: 5rem;
-}
+
 </style>
